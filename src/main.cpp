@@ -7,7 +7,7 @@
      if (!glfwInit())
          return -1;
 
-     window = glfwCreateWindow(640, 360, "SFML", nullptr, nullptr);
+     window = glfwCreateWindow(640, 360, "GLFWWindow", nullptr, nullptr);
      if (!window) {
          glfwTerminate();
          return -1;
